@@ -55,7 +55,9 @@ def main():
             # Write results
             st.subheader(filtered_df['title'].values[0])
             st.write('Similarity: ',match['score'])
-            st.write(filtered_df['url'].values[0])         
+            st.write(filtered_df['url'].values[0])   
 
+    st.markdown('''Created by Ben Turner as a **proof-of-concept only**.''')
+      
 if __name__ == '__main__':
     main()
