@@ -1,6 +1,8 @@
-streamlit/.streamlit/secrets.toml
 __pycache__/*
 .ipynb_checkpoints/*
+.streamlit/secrets.toml
 archive/*
 pages/*
+streamlit/.streamlit/secrets.toml
 keys.py*
+secrets.toml

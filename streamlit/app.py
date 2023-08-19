@@ -16,13 +16,13 @@ PINECONE_API_KEY = st.secrets["PINECONE_API_KEY"]
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv('../data/data.csv')
+    df = pd.read_csv('data/data.csv')
     return df
 
 def main():
 
-    st.image("img/bupa_logo.png", width=60)
-    st.image("img/background.png")
+    st.image("streamlit/img/bupa_logo.png", width=60)
+    st.image("streamlit/img/background.png")
 
     # load underlying data
     df=load_data()
