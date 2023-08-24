@@ -10,6 +10,7 @@ from tqdm.auto import tqdm
 index_name = 'semantic-search-openai'
 pinecone_env='gcp-starter'
 MODEL = "text-embedding-ada-002"
+#MODEL="gpt-3.5-turbo-16k"
 openai.api_key = keys.OPENAI_API_KEY
 
 # read data
