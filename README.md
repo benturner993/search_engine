@@ -25,7 +25,7 @@ This proof of concept proves that it is possible to create a new search engine u
 
 To achieve value from this PoC, an internal equivalent can be built and consumed. Equally, and potentially an easier route-to-value would be to build a stand-alone API which can be directly consumed from the `bupa.co.uk` website. 
 
-## Known issues
+## Known Issues
 
 - Only 25% of urls have been scraped due to timings and PoC state of project  
 - The `body` of information collected requires large amounts of preprocessing. Perhaps requiring a preprocess module or further improvement to web-scraper  
