@@ -7,3 +7,4 @@ streamlit/.streamlit/secrets.toml
 keys.py*
 secrets.toml
 pages2/*
+docs/*
